@@ -1,53 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-  }
-  
-  #top {
-    padding-top: 10px;
-    background-color: #4CAF50;
-    color: #ffffff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 1px solid #333;
-  }
-  
-  #holder {
-    margin-top: 10px;
+    text-decoration: none;
+    background: linear-gradient(to left, #dacbf0, #ffffff);
+}
+
+#holder {
+    margin-top: 25px;
     text-align: center;
     height: auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .item {
+}
+
+.item {
     display: inline-block;
     margin: 10px;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(7, 7, 7, 0.12);
+    font-size: 17px;
     font-weight: bold;
-    color: #333;
+    color: #480f4d;
     text-decoration: none;
-  }
-  
-  .item:hover {
-    background-color: #4CAF50;
+}
+
+.item:hover {
+    background-color: #000000;
     color: #ffffff;
-  }
-  
-  #add {
+    transition: background-color 0.5s ease;
+}
+
+#add {
     background-color: #4CAF50;
     color: #ffffff;
     padding: 10px;
@@ -56,9 +43,22 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  #add:hover {
-    background-color: #333;
-  }
+    transition: background-color 0.5s ease;
+}
+
+#add:hover {
+    background-color: #131212;
+}
+
+#inID {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#inID:hover {
+    background-color: #eef1eb;
+}
