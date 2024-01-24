@@ -20,7 +20,4 @@ function newTodo() {
     firebaseRef.set({ textContent });
 }
 
-
-
 addForm.addEventListener("click", newTodo);
-
