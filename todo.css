@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 #top{
     padding-top:10px;
-    background-color: aqua;
+    background-color: rgb(224, 202, 244);
     height: 50px;
     text-align: center;
 }
@@ -30,12 +30,18 @@ body {
     height: 30px;
     margin-top: 10px;
     width: 80%;
-    color:white;
-    background-color: blueviolet;
+    color:rgb(44, 2, 79);
+    background-color: rgb(198, 177, 218);
+    box-shadow: 2px 16px 39px -3px rgba(0,0,0,0.20);
+    border-radius: 3px;
 }
 
 #add{
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+.inside{
+    padding-top: 3px;
 }
